@@ -1,4 +1,4 @@
-const RentalItem = require('../models/rentalItemModel');
+const RentalItem = require('../models/renatalItemModel');
 
 function getAll(req, res) {
   RentalItem.getAllRentalItems((err, rows) => {

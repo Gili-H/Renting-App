@@ -9,3 +9,5 @@ router.put('/:id', rentalItemsController.update);
 router.delete('/:id', rentalItemsController.remove);
 
 module.exports = router;
+
+

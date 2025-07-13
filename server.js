@@ -1,11 +1,12 @@
 const express = require('express');
+ 
 const app = express();
 const port = 3000;
 
 const costumesRoutes = require('./routes/costumes');
 const usersRoutes = require('./routes/users');
 const rentalsRoutes = require('./routes/rentals');
-const rentalItemsRoutes = require('./routes/rentalItems');
+const rentalItemsRoutes = require('./routes/rentalItem');
 
 app.use(express.json());
 
